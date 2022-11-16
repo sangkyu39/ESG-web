@@ -1,3 +1,7 @@
+body {
+    margin: 20px;
+}
+
 h1 {
     text-align: center;
     border:1px solid black;
@@ -23,9 +27,10 @@ h1 {
 
 #window {
     text-align:center;
-    border:1px solid black;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border:1px solid gray;
+    background-color: gray;
+    margin: 15px;
+    margin-bottom: 0px;
 }
 
 #gridmap {
@@ -36,18 +41,26 @@ h1 {
 #studyroom {
     writing-mode:vertical-lr;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left:20px;
+    padding-right:20px;
     border: 1px solid black;
     margin-bottom: 20px;
+    margin-top:20px;
+    background-color: gray;
+    border: 0px;
 }
 #seats{
     display:grid;
     text-align: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-left: 50px;
+    margin-right: 30px;
 }
 #gridstateseat {
+    margin-top: 20px;
+    border-radius: 10px;
     display: grid;
     text-align: center;
     border:1px solid black;
@@ -67,6 +80,14 @@ h1 {
     border: 1px solid gray;
     text-align: center;
     margin: 5px;
-    margin-top: 20px;
-    margin-bottom:  20px;
+    margin-top: 25px;
+    margin-bottom:  25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: gray;
+}
+
+#backmap {
+    background-color:rgb(96, 96, 96); 
+    padding-top:5px;
 }
